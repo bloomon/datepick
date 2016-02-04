@@ -2078,9 +2078,9 @@
 						((drawDate.getDay() || 7) < 6 ? '' : ' ' + renderer.weekendClass) +
 						(drawDate.getMonth() + 1 === month ? '' : ' ' + renderer.otherMonthClass) +
 						(drawDate.getTime() === today.getTime() && (drawDate.getMonth() + 1) === month ?
-						' ' + renderer.todayClass : '') +
+						' ' + renderer.todayClass : '') /*+
 						(drawDate.getTime() === inst.drawDate.getTime() && (drawDate.getMonth() + 1) === month ?
-						' ' + renderer.highlightedClass : '') + '"' +
+						' ' + renderer.highlightedClass : '')*/ + '"' +
 						(dateInfo.title || (inst.options.dayStatus && selectable) ? ' title="' +
 						(dateInfo.title || plugin.formatDate(
 						inst.options.dayStatus, drawDate, inst.getConfig())) + '"' : '') + '>' +
