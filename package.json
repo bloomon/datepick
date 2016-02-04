@@ -1,0 +1,19 @@
+{
+  "name": "datepick",
+  "version": "5.0.1",
+  "description": "jQuery Datepicker",
+  "main": "jquery.datepick.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloomon/datepick.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloomon/datepick/issues"
+  },
+  "homepage": "https://github.com/bloomon/datepick#readme"
+}
